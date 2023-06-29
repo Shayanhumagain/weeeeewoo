@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>portfolio</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+       
+        <div class="navbar">
+            <a class="nav-item" href="index.html"><svg fill="#FFFFFF" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+              width="26px" height="26px" viewBox="0 0 547.596 547.596"
+              xml:space="preserve">
+           <g>
+             <path d="M540.76,254.788L294.506,38.216c-11.475-10.098-30.064-10.098-41.386,0L6.943,254.788
+               c-11.475,10.098-8.415,18.284,6.885,18.284h75.964v221.773c0,12.087,9.945,22.108,22.108,22.108h92.947V371.067
+               c0-12.087,9.945-22.108,22.109-22.108h93.865c12.239,0,22.108,9.792,22.108,22.108v145.886h92.947
+               c12.24,0,22.108-9.945,22.108-22.108v-221.85h75.965C549.021,272.995,552.081,264.886,540.76,254.788z"/>
+           </g>
+           </svg></a>
+            <a class="nav-item" href="contact.html">Contact</a>
+            <a class="nav-item" href="about.html">About</a>
+            <a class="nav-item" href="myself.html">Myself</a>
+          </div>
+          
+          
+      
+          <br>
+
+        <div class="heading">
+            <h1>This is a portfolio</h1><br>
+        </div>
+
+        <div class="mainbody">
+          <div class="surv"><form action="formsub.html"> <!-- onsubmit="sendEmail(); reset(); return false;" -->
+            Name: <input type="text" max="20" value="Full Name" required><br>
+            Gender: male<input type="checkbox"> female<input type="checkbox"><br>
+            Age: <input type="number" min="5" max="150" required><br>
+            Email-ID: <input type="email" id="email" required><br>
+
+            Country: <select>
+                        <option>Nepal</a></option>
+                        <option>USA</option>
+                        <option>India</option>
+                        <option>Japan</option>
+                        <option>China</option>
+                        <option>Argentina</option>
+                        <option>Others</option>
+                    </select><br>
+                    <div class="table">
+                      <h4>Please fill in the boxes/blanks</h4>
+                      <table>
+                      <th>S.N</th>
+                      <th>Year and Grade</th>
+                      <th>Institution</th>
+                      <tr>
+                        <td>1</td>
+                        <td><input type="text" value="Grade, Year"></td>
+                        <td><input type="text" value="Institution"></td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td><input type="text" value="Grade, Year"></td>
+                        <td><input type="text" value="Institution"></td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td><input type="text" value="Grade, Year"></td>
+                        <td><input type="text" value="Institution"></td>
+                      </tr>
+                      <tr>
+                        <td>4 (optional)</td>
+                        <td><input type="text" value="Grade, Year"></td>
+                        <td><input type="text" value="Institution"></td>
+                      </tr>
+                    </table>
+                    </div><br>
+                    <textarea id="message" rows="5" placeholder="Your past experiences and references"></textarea>
+                    <input type="reset" value="Reset"> <input type="submit">
+          </form>
+        </div>
+        </div>
+
+       <!-- (to make it functional but it dont work) <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+          function sendEmail(){
+                                Email.send({
+                        Host : "smtp.isp.com",
+                        Username : "",
+                        Password : "",
+                        To : 'them@shayanhumagain1@gmail.com',
+                        From : document.getElementById("email").value,
+                        Subject : "The message",
+                        Body : "And this is the body"
+                        }).then(
+                        message => alert(message)
+                        );
+          }
+        </script> --> 
+
+        
+
+        <hr width="2500px" align="center">
+          <footer><iframe src="frame.html" width="800px" height="1000px">Jhon pork</iframe></footer>
+</html>

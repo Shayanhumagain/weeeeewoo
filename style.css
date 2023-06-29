@@ -1,0 +1,92 @@
+.navbar {
+    display: flex;
+    justify-content:safe;
+    background-color: #000000;
+    padding: 5px;
+  }
+  
+  .nav-item {
+    text-decoration:wavy;
+    color: #ffffff;
+    padding: 5px 10px;
+  }
+
+  .navbar :hover{
+    background-color: aqua;
+  }
+
+  .mainbody {
+    flex-wrap: wrap;
+    max-width: 4000px;
+    padding: 20px;
+    background-color: #b0abab;
+    text-align: center;
+    margin: 10px;
+    flex-direction:row;
+  }
+
+  .secondarybody {
+    flex-wrap: wrap;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #b0abab;
+    text-align: center;
+    margin: 10px;
+    align-self: flex-end;
+  }
+  
+  .table {
+    font-size: 25px;
+  }
+  
+  .table td {
+    font-size: 30px;
+    border: 1px solid black;
+  }
+
+  .table th {
+    font-size: 30px;
+    border: 1px solid black;
+  }
+
+  .list {
+    font-size: 35px;
+    padding: 10px 5px;
+  }
+
+  .contact {flex-wrap: wrap;
+  max-width: 700px;
+  padding: 20px;
+  background-color: #b0abab;
+  text-align:start;
+  margin: 10px;
+  flex-direction:row;
+  font-size: 38px;
+  }
+
+.surv {
+  font-size: 30px;
+}
+
+form input {
+  font-size: 30px;
+}
+
+form select {
+  font-size: 30px;
+}
+
+textarea {
+  font-size: 30px;
+}
+
+.mainbody2{
+  flex-wrap: wrap;
+  max-width: 4000px;
+  padding: 20px;
+  background-color: #d59393;
+  text-align: center;
+  margin: 10px;
+  flex-direction:row;
+  display: flex;
+}
